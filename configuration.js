@@ -19,6 +19,7 @@
     var ServerConfig = {
         backendUrl: function () {
             var url = configuration[appVersion];
+            console.log('remote backend configuration : ', url || Envs._default);
             if (url === undefined || url === null) return Envs._default;
             return url;
         }
