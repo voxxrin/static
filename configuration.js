@@ -12,6 +12,7 @@
     **/
     var configuration = {
         'dev': Envs.local,
+        'test': Envs.test,
         '0.2': Envs.prod,
         '0.2.1': Envs.prod
     };
