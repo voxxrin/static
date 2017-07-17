@@ -2,6 +2,7 @@
 
     var Envs = {
         prod: 'http://appv2.voxxr.in',
+        test: 'http://appv2-test.voxxr.in',
         local: ''
     };
     Envs._default = Envs.prod;
